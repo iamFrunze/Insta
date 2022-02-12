@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20314B3B0D1FD72F242CC2D4 /* Pods_Insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C222727CE76D3826DD296A3 /* Pods_Insta.framework */; };
+		A339A32727B815DC000A20E8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339A32627B815DC000A20E8 /* Models.swift */; };
 		A354F85C27AA9EE0009A75B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354F85B27AA9EE0009A75B2 /* AppDelegate.swift */; };
 		A354F85E27AA9EE0009A75B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354F85D27AA9EE0009A75B2 /* SceneDelegate.swift */; };
 		A354F86027AA9EE0009A75B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354F85F27AA9EE0009A75B2 /* HomeViewController.swift */; };
@@ -48,6 +49,7 @@
 		5A4E06704216E9C40A2AF05D /* Pods-Insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.release.xcconfig"; path = "Target Support Files/Pods-Insta/Pods-Insta.release.xcconfig"; sourceTree = "<group>"; };
 		7C222727CE76D3826DD296A3 /* Pods_Insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F237AB603978FE2491A363 /* Pods-Insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.debug.xcconfig"; path = "Target Support Files/Pods-Insta/Pods-Insta.debug.xcconfig"; sourceTree = "<group>"; };
+		A339A32627B815DC000A20E8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		A354F85827AA9EE0009A75B2 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A354F85B27AA9EE0009A75B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A354F85D27AA9EE0009A75B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		A354F87427AA9F4D009A75B2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A339A32627B815DC000A20E8 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				A354F88927AAA42E009A75B2 /* EditProfileViewController.swift in Sources */,
 				A354F87E27AAA31B009A75B2 /* ProfileViewController.swift in Sources */,
 				A354F88B27AAA44A009A75B2 /* SettingsViewController.swift in Sources */,
+				A339A32727B815DC000A20E8 /* Models.swift in Sources */,
 				A354F85E27AA9EE0009A75B2 /* SceneDelegate.swift in Sources */,
 				A37FD95D27AAB3DB0095B4E4 /* DatabaseManager.swift in Sources */,
 				A38B495C27B360B800E4A14B /* FormTableViewCell.swift in Sources */,

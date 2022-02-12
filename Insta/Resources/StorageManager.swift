@@ -38,6 +38,3 @@ public enum UserPostType {
   case photo, video
 }
 
-public struct UserPost {
-
-}
